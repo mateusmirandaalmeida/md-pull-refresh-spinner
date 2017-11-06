@@ -1,0 +1,37 @@
+{
+  "name": "md-pull-refresh-spinner",
+  "version": "1.0.0",
+  "description": "a library to update when dragging.",
+  "main": "./src/index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js",
+    "prod": "webpack --config ./webpack.dev.config.js && webpack --config ./webpack.production.config"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.28.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "unminified-webpack-plugin": "^1.1.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "author": "Mateus Miranda de Almeida <info.mateusmiranda@gmail.com>",
+  "license": "LGPL-3.0"
+}
